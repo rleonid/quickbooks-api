@@ -1,4 +1,4 @@
-import { BaseLine, GroupLineDetail } from '../types';
+import { BaseLine, GroupLineDetail } from '../types.js';
 /**
  * Group Line
  *

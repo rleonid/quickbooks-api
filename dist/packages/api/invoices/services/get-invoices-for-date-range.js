@@ -1,7 +1,7 @@
 // Import the Query Builder
 import { plainToClass } from 'class-transformer';
-import { Invoice, QuickbooksError } from '../../../../types/types';
-import { ApiClient } from '../../api-client';
+import { Invoice, QuickbooksError } from '../../../../types/types.js';
+import { ApiClient } from '../../api-client.js';
 /**
  * Get Invoices for a Date Range
  * @param this - The Invoice API

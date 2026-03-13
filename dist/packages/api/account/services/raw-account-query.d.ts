@@ -1,6 +1,6 @@
-import { AccountAPI } from '../account-api';
-import type { AccountQueryBuilder } from '../account-query-builder';
-import type { Account, SearchResponse } from '../../../../types/types';
+import { AccountAPI } from '../account-api.js';
+import type { AccountQueryBuilder } from '../account-query-builder.js';
+import type { Account, SearchResponse } from '../../../../types/types.js';
 /**
  * Raw Account Query
  * @param this - The Account API

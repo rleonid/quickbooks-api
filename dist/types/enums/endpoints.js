@@ -1,5 +1,5 @@
 // Imports
-import { APIUrls } from './api-urls';
+import { APIUrls } from './api-urls.js';
 /**
  * The Endpoints for the API
  */

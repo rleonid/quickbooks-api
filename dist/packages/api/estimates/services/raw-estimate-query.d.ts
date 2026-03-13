@@ -1,6 +1,6 @@
-import { EstimateAPI } from '../estimate-api';
-import type { EstimateQueryBuilder } from '../estimate-query-builder';
-import type { Estimate, SearchResponse } from '../../../../types/types';
+import { EstimateAPI } from '../estimate-api.js';
+import type { EstimateQueryBuilder } from '../estimate-query-builder.js';
+import type { Estimate, SearchResponse } from '../../../../types/types.js';
 /**
  * Raw Estimate Query
  * @param this - The Estimate API

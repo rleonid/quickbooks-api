@@ -1,4 +1,4 @@
-import { IntuitErrorData } from '../types';
+import { IntuitErrorData } from '../types.js';
 /**
  * The Quickbooks Error Class
  */

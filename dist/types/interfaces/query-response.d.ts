@@ -1,4 +1,4 @@
-import type { Estimate, Customer, Invoice, Payment, Account, CreditMemo, Preferences, CompanyInfo, Bill, RecurringTransaction } from '../types';
+import type { Estimate, Customer, Invoice, Payment, Account, CreditMemo, Preferences, CompanyInfo, Bill, RecurringTransaction } from '../types.js';
 /**
  * The Invoice Query Response
  */

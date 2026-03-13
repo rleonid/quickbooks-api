@@ -1,6 +1,6 @@
 // Imports
-import { ApiClient } from '../../app';
-import { QuickbooksError, } from '../types';
+import { ApiClient } from '../../app.js';
+import { QuickbooksError, } from '../types.js';
 /**
  * Invoice
  *

@@ -1,6 +1,6 @@
 // Import the Query Builder
-import { QuickbooksError } from '../../../../types/types';
-import { ApiClient } from '../../api-client';
+import { QuickbooksError } from '../../../../types/types.js';
+import { ApiClient } from '../../api-client.js';
 /**
  * Get Accounts for a Date Range
  * @param this - The Account API

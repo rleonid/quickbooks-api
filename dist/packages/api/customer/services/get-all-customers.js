@@ -1,6 +1,6 @@
 // Imports
 import { plainToClass } from 'class-transformer';
-import { Customer } from '../../../../types/types';
+import { Customer } from '../../../../types/types.js';
 /**
  * Retrieves all customers filtered by the provided search options.
  *

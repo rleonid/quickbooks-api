@@ -2,8 +2,8 @@
 import { TinyEmitter } from 'tiny-emitter';
 import * as jose from 'jose';
 // Internal Imports
-import { Endpoints, AuthScopes, GrantType, QuickbooksError, Environment, APIUrls, } from '../../types/types';
-import { ApiClient } from '../api/api-client';
+import { Endpoints, AuthScopes, GrantType, QuickbooksError, Environment, APIUrls, } from '../../types/types.js';
+import { ApiClient } from '../api/api-client.js';
 /**
  * The Auth Provider is responsible for handling the OAuth2 flow for the application.
  * It is responsible for generating the OAuth2 URL and handling the callback.

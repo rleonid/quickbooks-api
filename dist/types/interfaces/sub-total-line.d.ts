@@ -1,4 +1,4 @@
-import { BaseLine, LineDetail } from '../types';
+import { BaseLine, LineDetail } from '../types.js';
 /**
  * Sub Total Line
  *

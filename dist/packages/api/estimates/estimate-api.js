@@ -1,15 +1,15 @@
 // Imports
-import { ApiClient } from '../api-client';
-import { Environment, Query, QuickbooksError } from '../../../types/types';
-import { Endpoints } from '../../../types/enums/endpoints';
-import { EstimateQueryBuilder } from './estimate-query-builder';
+import { ApiClient } from '../api-client.js';
+import { Environment, Query, QuickbooksError } from '../../../types/types.js';
+import { Endpoints } from '../../../types/enums/endpoints.js';
+import { EstimateQueryBuilder } from './estimate-query-builder.js';
 import path from 'path';
 // Import the Services
-import { getAllEstimates } from './services/get-all-estimates';
-import { getEstimateById } from './services/get-estimate-by-id';
-import { getEstimatesForDateRange } from './services/get-estimates-for-date-range';
-import { getUpdatedEstimates } from './services/get-updated-estimates';
-import { rawEstimateQuery } from './services/raw-estimate-query';
+import { getAllEstimates } from './services/get-all-estimates.js';
+import { getEstimateById } from './services/get-estimate-by-id.js';
+import { getEstimatesForDateRange } from './services/get-estimates-for-date-range.js';
+import { getUpdatedEstimates } from './services/get-updated-estimates.js';
+import { rawEstimateQuery } from './services/raw-estimate-query.js';
 /**
  * API Client
  */

@@ -1,5 +1,5 @@
-import { ApiClient } from '../../packages/api/api-client';
-import { ReferenceType, ModificationMetadata } from '../types';
+import { ApiClient } from '../../packages/api/api-client.js';
+import { ReferenceType, ModificationMetadata } from '../types.js';
 /**
  * Account
  *

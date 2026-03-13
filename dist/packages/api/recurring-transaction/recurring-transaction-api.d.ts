@@ -1,18 +1,18 @@
-import { ApiClient } from '../api-client';
-import { type RecurringTransaction } from '../../../types/types';
-import { RecurringTransactionQueryBuilder } from './recurring-transaction-query-builder';
+import { ApiClient } from '../api-client.js';
+import { type RecurringTransaction } from '../../../types/types.js';
+import { RecurringTransactionQueryBuilder } from './recurring-transaction-query-builder.js';
 /**
  * RecurringTransaction API Client
  */
 export declare class RecurringTransactionAPI {
     protected readonly apiClient: ApiClient;
-    readonly getAllRecurringTransactions: (options?: import("../../../app").RecurringTransactionOptions | undefined) => Promise<import("../../../app").SearchResponse<RecurringTransaction>>;
+    readonly getAllRecurringTransactions: (options?: import("../../../app.js").RecurringTransactionOptions | undefined) => Promise<import("../../../app.js").SearchResponse<RecurringTransaction>>;
     readonly getRecurringTransactionById: (id: string) => Promise<{
         recurringTransaction: RecurringTransaction | null;
         intuitTID: string;
     }>;
-    readonly getUpdatedRecurringTransactions: (lastUpdatedDate: Date, options?: import("../../../app").RecurringTransactionOptions | undefined) => Promise<import("../../../app").SearchResponse<RecurringTransaction>>;
-    readonly rawRecurringTransactionQuery: (queryBuilder: RecurringTransactionQueryBuilder) => Promise<import("../../../app").SearchResponse<RecurringTransaction>>;
+    readonly getUpdatedRecurringTransactions: (lastUpdatedDate: Date, options?: import("../../../app.js").RecurringTransactionOptions | undefined) => Promise<import("../../../app.js").SearchResponse<RecurringTransaction>>;
+    readonly rawRecurringTransactionQuery: (queryBuilder: RecurringTransactionQueryBuilder) => Promise<import("../../../app.js").SearchResponse<RecurringTransaction>>;
     /**
      * Constructor
      * @param apiClient - The API Client

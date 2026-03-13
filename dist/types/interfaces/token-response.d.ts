@@ -1,4 +1,4 @@
-import type { TokenType } from '../enums/token-type';
+import type { TokenType } from '../enums/token-type.js';
 /**
  * The object returned from the Token Exchange Request
  */

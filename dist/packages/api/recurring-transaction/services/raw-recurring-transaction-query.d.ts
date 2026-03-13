@@ -1,6 +1,6 @@
-import { RecurringTransactionAPI } from '../recurring-transaction-api';
-import type { RecurringTransactionQueryBuilder } from '../recurring-transaction-query-builder';
-import type { RecurringTransaction, SearchResponse } from '../../../../types/types';
+import { RecurringTransactionAPI } from '../recurring-transaction-api.js';
+import type { RecurringTransactionQueryBuilder } from '../recurring-transaction-query-builder.js';
+import type { RecurringTransaction, SearchResponse } from '../../../../types/types.js';
 /**
  * Raw RecurringTransaction Query
  * @param this - The RecurringTransaction API

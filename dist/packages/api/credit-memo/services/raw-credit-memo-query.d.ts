@@ -1,6 +1,6 @@
-import { CreditMemoAPI } from '../credit-memo-api';
-import type { CreditMemoQueryBuilder } from '../credit-memo-query-builder';
-import type { CreditMemo, SearchResponse } from '../../../../types/types';
+import { CreditMemoAPI } from '../credit-memo-api.js';
+import type { CreditMemoQueryBuilder } from '../credit-memo-query-builder.js';
+import type { CreditMemo, SearchResponse } from '../../../../types/types.js';
 /**
  * Raw CreditMemo Query
  * @param this - The CreditMemo API

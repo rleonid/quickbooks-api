@@ -1,5 +1,5 @@
-import type { RecurringTransaction, RecurringTransactionOptions, SearchResponse } from '../../../../types/types';
-import { RecurringTransactionAPI } from '../recurring-transaction-api';
+import type { RecurringTransaction, RecurringTransactionOptions, SearchResponse } from '../../../../types/types.js';
+import { RecurringTransactionAPI } from '../recurring-transaction-api.js';
 /**
  * Get Updated RecurringTransactions
  * @param this - The RecurringTransaction API

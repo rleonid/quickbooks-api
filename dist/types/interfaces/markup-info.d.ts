@@ -1,4 +1,4 @@
-import { ReferenceType } from '../interfaces/reference-type';
+import { ReferenceType } from '../interfaces/reference-type.js';
 /**
  * Markup Info
  *

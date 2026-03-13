@@ -1,6 +1,6 @@
 // Imports
-import { CustomerFilters } from '../../../types/types';
-import { BaseQueryBuilder } from '../common/base-query-builder';
+import { CustomerFilters } from '../../../types/types.js';
+import { BaseQueryBuilder } from '../common/base-query-builder.js';
 /**
  * The Invoice Query Builder
  */

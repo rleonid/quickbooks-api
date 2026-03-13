@@ -1,5 +1,5 @@
-import type { CompanyInfo } from '../../../../types/types';
-import { CompanyInfoAPI } from '../company-info-api';
+import type { CompanyInfo } from '../../../../types/types.js';
+import { CompanyInfoAPI } from '../company-info-api.js';
 /**
  * Raw Company Info Query
  * @param this - The Company Info API

@@ -1,5 +1,5 @@
-import type { Bill, BillOptions, SearchResponse } from '../../../../types/types';
-import { BillAPI } from '../bill-api';
+import type { Bill, BillOptions, SearchResponse } from '../../../../types/types.js';
+import { BillAPI } from '../bill-api.js';
 /**
  * Get All Bills
  * @param this - The Bill API

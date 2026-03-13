@@ -1,4 +1,4 @@
-import { OldIntuitErrorItem, IntuitErrorItem, IntuitFaultType } from '../types';
+import { OldIntuitErrorItem, IntuitErrorItem, IntuitFaultType } from '../types.js';
 /**
  * The raw Intuit error response data from api calls
  */

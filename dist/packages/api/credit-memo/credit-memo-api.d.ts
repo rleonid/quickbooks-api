@@ -1,19 +1,19 @@
-import { ApiClient } from '../api-client';
-import { type CreditMemo } from '../../../types/types';
-import { CreditMemoQueryBuilder } from './credit-memo-query-builder';
+import { ApiClient } from '../api-client.js';
+import { type CreditMemo } from '../../../types/types.js';
+import { CreditMemoQueryBuilder } from './credit-memo-query-builder.js';
 /**
  * API Client
  */
 export declare class CreditMemoAPI {
     protected readonly apiClient: ApiClient;
-    readonly getAllCreditMemos: (options?: import("../../../app").CreditMemoOptions | undefined) => Promise<import("../../../app").SearchResponse<CreditMemo>>;
-    readonly getCreditMemoById: (id: string, options?: import("../../../app").CreditMemoOptions | undefined) => Promise<{
+    readonly getAllCreditMemos: (options?: import("../../../app.js").CreditMemoOptions | undefined) => Promise<import("../../../app.js").SearchResponse<CreditMemo>>;
+    readonly getCreditMemoById: (id: string, options?: import("../../../app.js").CreditMemoOptions | undefined) => Promise<{
         creditMemo: CreditMemo | null;
         intuitTID: string;
     }>;
-    readonly getCreditMemosForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app").CreditMemoOptions | undefined) => Promise<import("../../../app").SearchResponse<CreditMemo>>;
-    readonly getUpdatedCreditMemos: (lastUpdatedDate: Date, options?: import("../../../app").CreditMemoOptions | undefined) => Promise<import("../../../app").SearchResponse<CreditMemo>>;
-    readonly rawCreditMemoQuery: (queryBuilder: CreditMemoQueryBuilder) => Promise<import("../../../app").SearchResponse<CreditMemo>>;
+    readonly getCreditMemosForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app.js").CreditMemoOptions | undefined) => Promise<import("../../../app.js").SearchResponse<CreditMemo>>;
+    readonly getUpdatedCreditMemos: (lastUpdatedDate: Date, options?: import("../../../app.js").CreditMemoOptions | undefined) => Promise<import("../../../app.js").SearchResponse<CreditMemo>>;
+    readonly rawCreditMemoQuery: (queryBuilder: CreditMemoQueryBuilder) => Promise<import("../../../app.js").SearchResponse<CreditMemo>>;
     /**
      * Constructor
 

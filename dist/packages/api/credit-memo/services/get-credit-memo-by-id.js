@@ -1,6 +1,6 @@
 // Import the Query Builder
 import { plainToClass } from 'class-transformer';
-import { CreditMemo } from '../../../../types/types';
+import { CreditMemo } from '../../../../types/types.js';
 /**
  * Get CreditMemo by ID
  * @param this - The CreditMemo API

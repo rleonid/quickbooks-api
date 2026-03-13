@@ -1,5 +1,5 @@
-import type { Bill } from '../../../types/types';
-import { BaseQueryBuilder } from '../common/base-query-builder';
+import type { Bill } from '../../../types/types.js';
+import { BaseQueryBuilder } from '../common/base-query-builder.js';
 /**
  * The Bill Query Builder
  */

@@ -1,6 +1,6 @@
 // Import the Query Builder
 import { plainToClass } from 'class-transformer';
-import { Bill } from '../../../../types/types';
+import { Bill } from '../../../../types/types.js';
 /**
  * Get Bill by ID
  * @param this - The Bill API

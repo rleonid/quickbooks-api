@@ -1,5 +1,5 @@
-import { CreditMemo, type CreditMemoOptions } from '../../../../types/types';
-import { CreditMemoAPI } from '../credit-memo-api';
+import { CreditMemo, type CreditMemoOptions } from '../../../../types/types.js';
+import { CreditMemoAPI } from '../credit-memo-api.js';
 /**
  * Get CreditMemo by ID
  * @param this - The CreditMemo API

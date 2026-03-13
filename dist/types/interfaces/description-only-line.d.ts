@@ -1,4 +1,4 @@
-import { BaseLine, DescriptionLineDetail } from '../types';
+import { BaseLine, DescriptionLineDetail } from '../types.js';
 /**
  * Description Only Line
  *

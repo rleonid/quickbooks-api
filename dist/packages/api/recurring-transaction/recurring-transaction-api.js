@@ -1,12 +1,12 @@
-import { ApiClient } from '../api-client';
-import { Environment, Query, QuickbooksError } from '../../../types/types';
-import { RecurringTransactionQueryBuilder } from './recurring-transaction-query-builder';
+import { ApiClient } from '../api-client.js';
+import { Environment, Query, QuickbooksError } from '../../../types/types.js';
+import { RecurringTransactionQueryBuilder } from './recurring-transaction-query-builder.js';
 import path from 'path';
 // Import the Services
-import { getAllRecurringTransactions } from './services/get-all-recurring-transactions';
-import { getRecurringTransactionById } from './services/get-recurring-transaction-by-id';
-import { getUpdatedRecurringTransactions } from './services/get-updated-recurring-transactions';
-import { rawRecurringTransactionQuery } from './services/raw-recurring-transaction-query';
+import { getAllRecurringTransactions } from './services/get-all-recurring-transactions.js';
+import { getRecurringTransactionById } from './services/get-recurring-transaction-by-id.js';
+import { getUpdatedRecurringTransactions } from './services/get-updated-recurring-transactions.js';
+import { rawRecurringTransactionQuery } from './services/raw-recurring-transaction-query.js';
 /**
  * RecurringTransaction API Client
  */

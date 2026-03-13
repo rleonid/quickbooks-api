@@ -1,11 +1,11 @@
 // Imports
-import { ApiClient } from '../api-client';
-import { Environment, Query, QuickbooksError } from '../../../types/types';
-import { Endpoints } from '../../../types/enums/endpoints';
-import { PreferenceQueryBuilder } from './preference-query-builder';
+import { ApiClient } from '../api-client.js';
+import { Environment, Query, QuickbooksError } from '../../../types/types.js';
+import { Endpoints } from '../../../types/enums/endpoints.js';
+import { PreferenceQueryBuilder } from './preference-query-builder.js';
 // Import the Services
-import { getPreferences } from './services/get-preferences';
-import { rawPreferenceQuery } from './services/raw-preference-query';
+import { getPreferences } from './services/get-preferences.js';
+import { rawPreferenceQuery } from './services/raw-preference-query.js';
 /**
  * API Client
  */

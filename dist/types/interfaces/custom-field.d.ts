@@ -1,4 +1,4 @@
-import { CustomFieldType } from '../types';
+import { CustomFieldType } from '../types.js';
 /**
  * CustomField
  *

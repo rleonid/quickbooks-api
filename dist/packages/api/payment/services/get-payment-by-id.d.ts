@@ -1,5 +1,5 @@
-import { Payment, type PaymentOptions } from '../../../../types/types';
-import { PaymentAPI } from '../payment-api';
+import { Payment, type PaymentOptions } from '../../../../types/types.js';
+import { PaymentAPI } from '../payment-api.js';
 /**
  * Get Payment by ID
  * @param this - The Payment API

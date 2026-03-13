@@ -1,6 +1,6 @@
 // Imports
 import { plainToClass } from 'class-transformer';
-import { Preferences } from '../../../../types/types';
+import { Preferences } from '../../../../types/types.js';
 /**
  * Get All Preferences
  * @param this - The Preference API

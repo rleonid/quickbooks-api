@@ -1,5 +1,5 @@
-import type { Payment, PaymentOptions, SearchResponse } from '../../../../types/types';
-import { PaymentAPI } from '../payment-api';
+import type { Payment, PaymentOptions, SearchResponse } from '../../../../types/types.js';
+import { PaymentAPI } from '../payment-api.js';
 /**
  * Get Payments by Due Date
  * @param this - The Payment API

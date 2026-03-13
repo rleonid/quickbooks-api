@@ -1,6 +1,6 @@
 // Import the Query Builder
 import { plainToClass } from 'class-transformer';
-import { Invoice } from '../../../../types/types';
+import { Invoice } from '../../../../types/types.js';
 /**
  * Get Invoice by ID
  * @param this - The Invoice API

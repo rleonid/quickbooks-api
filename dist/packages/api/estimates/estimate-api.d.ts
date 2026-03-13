@@ -1,19 +1,19 @@
-import { ApiClient } from '../api-client';
-import { type Estimate } from '../../../types/types';
-import { EstimateQueryBuilder } from './estimate-query-builder';
+import { ApiClient } from '../api-client.js';
+import { type Estimate } from '../../../types/types.js';
+import { EstimateQueryBuilder } from './estimate-query-builder.js';
 /**
  * API Client
  */
 export declare class EstimateAPI {
     protected readonly apiClient: ApiClient;
-    readonly getAllEstimates: (options?: import("../../../app").EstimateOptions | undefined) => Promise<import("../../../app").SearchResponse<Estimate>>;
-    readonly getEstimateById: (id: string, options?: import("../../../app").EstimateOptions | undefined) => Promise<{
+    readonly getAllEstimates: (options?: import("../../../app.js").EstimateOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Estimate>>;
+    readonly getEstimateById: (id: string, options?: import("../../../app.js").EstimateOptions | undefined) => Promise<{
         estimate: Estimate | null;
         intuitTID: string;
     }>;
-    readonly getEstimatesForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app").EstimateOptions | undefined) => Promise<import("../../../app").SearchResponse<Estimate>>;
-    readonly getUpdatedEstimates: (lastUpdatedDate: Date, options?: import("../../../app").EstimateOptions | undefined) => Promise<import("../../../app").SearchResponse<Estimate>>;
-    readonly rawEstimateQuery: (queryBuilder: EstimateQueryBuilder) => Promise<import("../../../app").SearchResponse<Estimate>>;
+    readonly getEstimatesForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app.js").EstimateOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Estimate>>;
+    readonly getUpdatedEstimates: (lastUpdatedDate: Date, options?: import("../../../app.js").EstimateOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Estimate>>;
+    readonly rawEstimateQuery: (queryBuilder: EstimateQueryBuilder) => Promise<import("../../../app.js").SearchResponse<Estimate>>;
     /**
      * Constructor
 

@@ -1,6 +1,6 @@
 // Import the Query Builder
 import { plainToClass } from 'class-transformer';
-import { RecurringTransaction } from '../../../../types/types';
+import { RecurringTransaction } from '../../../../types/types.js';
 /**
  * Get RecurringTransaction by ID
  * @param this - The RecurringTransaction API

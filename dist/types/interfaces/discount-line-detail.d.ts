@@ -1,4 +1,4 @@
-import { ReferenceType } from '../types';
+import { ReferenceType } from '../types.js';
 /**
  * Discount Line Detail
  *

@@ -1,5 +1,5 @@
-import type { ReferenceType, SalesItemLine, GroupLine, DescriptionOnlyLine, DiscountLine, SubTotalLine, ModificationMetadata, EmailAddress, PhysicalAddress, TxnTaxDetail, CustomField, LinkedTxn } from '../types';
-import type { BillLine } from '../classes/bill';
+import type { ReferenceType, SalesItemLine, GroupLine, DescriptionOnlyLine, DiscountLine, SubTotalLine, ModificationMetadata, EmailAddress, PhysicalAddress, TxnTaxDetail, CustomField, LinkedTxn } from '../types.js';
+import type { BillLine } from '../classes/bill.js';
 /**
  * Recurring transaction type — which underlying entity this template wraps
  */

@@ -1,6 +1,6 @@
-import { CustomerAPI } from '../customer-api';
-import type { CustomerQueryBuilder } from '../customer-query-builder';
-import { Customer, type SearchResponse } from '../../../../types/types';
+import { CustomerAPI } from '../customer-api.js';
+import type { CustomerQueryBuilder } from '../customer-query-builder.js';
+import { Customer, type SearchResponse } from '../../../../types/types.js';
 /**
  * Executes a custom customer query using the specified query builder.
  *

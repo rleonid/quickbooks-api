@@ -1,4 +1,4 @@
-import { Invoice } from '../../../../types/types';
+import { Invoice } from '../../../../types/types.js';
 import { plainToClass } from 'class-transformer';
 /**
  * Raw Invoice Query

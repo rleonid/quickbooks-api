@@ -1,6 +1,6 @@
 // Import the Query Builder
 import { plainToClass } from 'class-transformer';
-import { Estimate } from '../../../../types/types';
+import { Estimate } from '../../../../types/types.js';
 /**
  * Get Estimate by ID
  * @param this - The Estimate API

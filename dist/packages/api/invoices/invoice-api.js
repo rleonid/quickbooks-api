@@ -1,16 +1,16 @@
 // Imports
-import { ApiClient } from '../api-client';
-import { Environment, Query, QuickbooksError } from '../../../types/types';
-import { Endpoints } from '../../../types/enums/endpoints';
-import { InvoiceQueryBuilder } from './invoice-query-builder';
+import { ApiClient } from '../api-client.js';
+import { Environment, Query, QuickbooksError } from '../../../types/types.js';
+import { Endpoints } from '../../../types/enums/endpoints.js';
+import { InvoiceQueryBuilder } from './invoice-query-builder.js';
 import path from 'path';
 // Import the Services
-import { getAllInvoices } from './services/get-all-invoices';
-import { getInvoiceById } from './services/get-invoice-by-id';
-import { getInvoicesForDateRange } from './services/get-invoices-for-date-range';
-import { getUpdatedInvoices } from './services/get-updated-invoices';
-import { getInvoicesByDueDate } from './services/get-invoices-by-due-date';
-import { rawInvoiceQuery } from './services/raw-invoice-query';
+import { getAllInvoices } from './services/get-all-invoices.js';
+import { getInvoiceById } from './services/get-invoice-by-id.js';
+import { getInvoicesForDateRange } from './services/get-invoices-for-date-range.js';
+import { getUpdatedInvoices } from './services/get-updated-invoices.js';
+import { getInvoicesByDueDate } from './services/get-invoices-by-due-date.js';
+import { rawInvoiceQuery } from './services/raw-invoice-query.js';
 /**
  * API Client
  */

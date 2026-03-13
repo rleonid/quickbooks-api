@@ -1,6 +1,6 @@
-import { CompanyInfoOptions } from '../../../../types/interfaces/options';
-import { CompanyInfo } from '../../../../types/types';
-import { CompanyInfoAPI } from '../company-info-api';
+import { CompanyInfoOptions } from '../../../../types/interfaces/options.js';
+import { CompanyInfo } from '../../../../types/types.js';
+import { CompanyInfoAPI } from '../company-info-api.js';
 /**
  * Get Company Info
  * @param this - The Company Info API

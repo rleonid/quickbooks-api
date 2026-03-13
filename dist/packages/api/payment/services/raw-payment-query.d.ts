@@ -1,6 +1,6 @@
-import { PaymentAPI } from '../payment-api';
-import type { PaymentQueryBuilder } from '../payment-query-builder';
-import type { Payment, SearchResponse } from '../../../../types/types';
+import { PaymentAPI } from '../payment-api.js';
+import type { PaymentQueryBuilder } from '../payment-query-builder.js';
+import type { Payment, SearchResponse } from '../../../../types/types.js';
 /**
  * Raw Payment Query
  * @param this - The Payment API

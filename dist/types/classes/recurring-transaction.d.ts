@@ -1,6 +1,6 @@
-import { ApiClient } from '../../packages/api/api-client';
-import { type ModificationMetadata } from '../types';
-import type { RecurringInfo, RecurringInvoice, RecurringBill } from '../interfaces/recurring-transaction';
+import { ApiClient } from '../../packages/api/api-client.js';
+import { type ModificationMetadata } from '../types.js';
+import type { RecurringInfo, RecurringInvoice, RecurringBill } from '../interfaces/recurring-transaction.js';
 /**
  * RecurringTransaction
  *

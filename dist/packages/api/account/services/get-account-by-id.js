@@ -1,6 +1,6 @@
 // Import the Query Builder
 import { plainToClass } from 'class-transformer';
-import { Account } from '../../../../types/types';
+import { Account } from '../../../../types/types.js';
 /**
  * Get Account by ID
  * @param this - The Account API

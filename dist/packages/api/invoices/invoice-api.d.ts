@@ -1,20 +1,20 @@
-import { ApiClient } from '../api-client';
-import { type Invoice } from '../../../types/types';
-import { InvoiceQueryBuilder } from './invoice-query-builder';
+import { ApiClient } from '../api-client.js';
+import { type Invoice } from '../../../types/types.js';
+import { InvoiceQueryBuilder } from './invoice-query-builder.js';
 /**
  * API Client
  */
 export declare class InvoiceAPI {
     protected readonly apiClient: ApiClient;
-    readonly getAllInvoices: (options?: import("../../../app").InvoiceOptions | undefined) => Promise<import("../../../app").SearchResponse<Invoice>>;
-    readonly getInvoiceById: (id: string, options?: import("../../../app").InvoiceOptions | undefined) => Promise<{
+    readonly getAllInvoices: (options?: import("../../../app.js").InvoiceOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Invoice>>;
+    readonly getInvoiceById: (id: string, options?: import("../../../app.js").InvoiceOptions | undefined) => Promise<{
         invoice: Invoice | null;
         intuitTID: string;
     }>;
-    readonly getInvoicesForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app").InvoiceOptions | undefined) => Promise<import("../../../app").SearchResponse<Invoice>>;
-    readonly getUpdatedInvoices: (lastUpdatedDate: Date, options?: import("../../../app").InvoiceOptions | undefined) => Promise<import("../../../app").SearchResponse<Invoice>>;
-    readonly getInvoicesByDueDate: (dueDate: Date, options?: import("../../../app").InvoiceOptions | undefined) => Promise<import("../../../app").SearchResponse<Invoice>>;
-    readonly rawInvoiceQuery: (queryBuilder: InvoiceQueryBuilder) => Promise<import("../../../app").SearchResponse<Invoice>>;
+    readonly getInvoicesForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app.js").InvoiceOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Invoice>>;
+    readonly getUpdatedInvoices: (lastUpdatedDate: Date, options?: import("../../../app.js").InvoiceOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Invoice>>;
+    readonly getInvoicesByDueDate: (dueDate: Date, options?: import("../../../app.js").InvoiceOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Invoice>>;
+    readonly rawInvoiceQuery: (queryBuilder: InvoiceQueryBuilder) => Promise<import("../../../app.js").SearchResponse<Invoice>>;
     /**
      * Constructor
 

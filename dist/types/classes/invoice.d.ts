@@ -1,5 +1,5 @@
-import { ApiClient } from '../../app';
-import { EmailStatus, PhysicalAddress, SalesItemLine, GroupLine, DescriptionOnlyLine, DiscountLine, SubTotalLine, ReferenceType, GlobalTaxCalculation, EmailAddress, ModificationMetadata, DeliveryInfo, PrintStatus, LinkedTxn, MemoRef, TxnTaxDetail, CustomField } from '../types';
+import { ApiClient } from '../../app.js';
+import { EmailStatus, PhysicalAddress, SalesItemLine, GroupLine, DescriptionOnlyLine, DiscountLine, SubTotalLine, ReferenceType, GlobalTaxCalculation, EmailAddress, ModificationMetadata, DeliveryInfo, PrintStatus, LinkedTxn, MemoRef, TxnTaxDetail, CustomField } from '../types.js';
 /**
  * Invoice
  *

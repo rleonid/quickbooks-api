@@ -1,5 +1,5 @@
-import { RecurringTransaction } from '../../../../types/types';
-import { RecurringTransactionAPI } from '../recurring-transaction-api';
+import { RecurringTransaction } from '../../../../types/types.js';
+import { RecurringTransactionAPI } from '../recurring-transaction-api.js';
 /**
  * Get RecurringTransaction by ID
  * @param this - The RecurringTransaction API

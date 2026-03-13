@@ -1,14 +1,14 @@
 // Imports
-import { ApiClient } from '../api-client';
-import { Environment, Query, QuickbooksError } from '../../../types/types';
-import { Endpoints } from '../../../types/enums/endpoints';
-import { CustomerQueryBuilder } from './customer-query-builder';
+import { ApiClient } from '../api-client.js';
+import { Environment, Query, QuickbooksError } from '../../../types/types.js';
+import { Endpoints } from '../../../types/enums/endpoints.js';
+import { CustomerQueryBuilder } from './customer-query-builder.js';
 // Import the Services
-import { getAllCustomers } from './services/get-all-customers';
-import { getCustomerById } from './services/get-customer-by-id';
-import { getCustomersForDateRange } from './services/get-customers-for-date-range';
-import { getUpdatedCustomers } from './services/get-updated-customers';
-import { rawCustomerQuery } from './services/raw-customer-query';
+import { getAllCustomers } from './services/get-all-customers.js';
+import { getCustomerById } from './services/get-customer-by-id.js';
+import { getCustomersForDateRange } from './services/get-customers-for-date-range.js';
+import { getUpdatedCustomers } from './services/get-updated-customers.js';
+import { rawCustomerQuery } from './services/raw-customer-query.js';
 import path from 'path';
 /**
  * API Client

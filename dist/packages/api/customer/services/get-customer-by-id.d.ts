@@ -1,5 +1,5 @@
-import { type CustomerOptions, Customer } from '../../../../types/types';
-import { CustomerAPI } from '../customer-api';
+import { type CustomerOptions, Customer } from '../../../../types/types.js';
+import { CustomerAPI } from '../customer-api.js';
 /**
  * Retrieves a customer by their ID from the Customer API.
  *

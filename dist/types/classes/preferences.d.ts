@@ -1,5 +1,5 @@
-import { ApiClient } from '../../packages/api/api-client';
-import { ModificationMetadata } from '../types';
+import { ApiClient } from '../../packages/api/api-client.js';
+import { ModificationMetadata } from '../types.js';
 /**
  * Preferences
  *

@@ -1,5 +1,5 @@
-import { Customer, type CustomerOptions, type SearchResponse } from '../../../../types/types';
-import { CustomerAPI } from '../customer-api';
+import { Customer, type CustomerOptions, type SearchResponse } from '../../../../types/types.js';
+import { CustomerAPI } from '../customer-api.js';
 /**
  * Retrieves updated customer records modified after the specified cutoff date.
  *

@@ -1,20 +1,20 @@
-import { ApiClient } from '../api-client';
-import { type Payment } from '../../../types/types';
-import { PaymentQueryBuilder } from './payment-query-builder';
+import { ApiClient } from '../api-client.js';
+import { type Payment } from '../../../types/types.js';
+import { PaymentQueryBuilder } from './payment-query-builder.js';
 /**
  * API Client
  */
 export declare class PaymentAPI {
     protected readonly apiClient: ApiClient;
-    readonly getAllPayments: (options?: import("../../../app").PaymentOptions | undefined) => Promise<import("../../../app").SearchResponse<Payment>>;
-    readonly getPaymentById: (id: string, options?: import("../../../app").PaymentOptions | undefined) => Promise<{
+    readonly getAllPayments: (options?: import("../../../app.js").PaymentOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Payment>>;
+    readonly getPaymentById: (id: string, options?: import("../../../app.js").PaymentOptions | undefined) => Promise<{
         payment: Payment | null;
         intuitTID: string;
     }>;
-    readonly getPaymentsForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app").PaymentOptions | undefined) => Promise<import("../../../app").SearchResponse<Payment>>;
-    readonly getUpdatedPayments: (lastUpdatedDate: Date, options?: import("../../../app").PaymentOptions | undefined) => Promise<import("../../../app").SearchResponse<Payment>>;
-    readonly getPaymentsByDueDate: (dueDate: Date, options?: import("../../../app").PaymentOptions | undefined) => Promise<import("../../../app").SearchResponse<Payment>>;
-    readonly rawPaymentQuery: (queryBuilder: PaymentQueryBuilder) => Promise<import("../../../app").SearchResponse<Payment>>;
+    readonly getPaymentsForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app.js").PaymentOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Payment>>;
+    readonly getUpdatedPayments: (lastUpdatedDate: Date, options?: import("../../../app.js").PaymentOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Payment>>;
+    readonly getPaymentsByDueDate: (dueDate: Date, options?: import("../../../app.js").PaymentOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Payment>>;
+    readonly rawPaymentQuery: (queryBuilder: PaymentQueryBuilder) => Promise<import("../../../app.js").SearchResponse<Payment>>;
     /**
      * Constructor
 

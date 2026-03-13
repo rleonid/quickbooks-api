@@ -1,4 +1,4 @@
-import { BaseLine, SalesItemLineDetail } from '../types';
+import { BaseLine, SalesItemLineDetail } from '../types.js';
 /**
  * Sales Item Line
  *

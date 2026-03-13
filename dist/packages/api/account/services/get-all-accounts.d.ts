@@ -1,5 +1,5 @@
-import type { Account, AccountOptions, SearchResponse } from '../../../../types/types';
-import { AccountAPI } from '../account-api';
+import type { Account, AccountOptions, SearchResponse } from '../../../../types/types.js';
+import { AccountAPI } from '../account-api.js';
 /**
  * Get All Accounts
  * @param this - The Account API

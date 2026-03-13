@@ -1,5 +1,5 @@
-import { ApiClient } from '../../packages/api/api-client';
-import { ReferenceType, ModificationMetadata, LinkedTxn, TxnTaxDetail } from '../types';
+import { ApiClient } from '../../packages/api/api-client.js';
+import { ReferenceType, ModificationMetadata, LinkedTxn, TxnTaxDetail } from '../types.js';
 /**
  * Bill Line Detail Types
  */

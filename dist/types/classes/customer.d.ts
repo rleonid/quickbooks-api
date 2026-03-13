@@ -1,5 +1,5 @@
-import { ApiClient } from '../../packages/api/api-client';
-import { DeliveryMethod, EmailAddress, ModificationMetadata, ReferenceType, TelephoneNumber, WebsiteAddress } from '../types';
+import { ApiClient } from '../../packages/api/api-client.js';
+import { DeliveryMethod, EmailAddress, ModificationMetadata, ReferenceType, TelephoneNumber, WebsiteAddress } from '../types.js';
 /**
  * Customer
  *

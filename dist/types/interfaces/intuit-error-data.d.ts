@@ -1,4 +1,4 @@
-import { IntuitErrorItem, IntuitFaultType } from '../types';
+import { IntuitErrorItem, IntuitFaultType } from '../types.js';
 /**
  * The Intuit Error Response Interface
  */

@@ -1,5 +1,5 @@
-import type { RecurringTransaction } from '../../../types/types';
-import { BaseQueryBuilder } from '../common/base-query-builder';
+import type { RecurringTransaction } from '../../../types/types.js';
+import { BaseQueryBuilder } from '../common/base-query-builder.js';
 /**
  * The RecurringTransaction Query Builder
  */

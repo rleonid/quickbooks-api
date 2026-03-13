@@ -1,4 +1,4 @@
-import { EstimateStatus } from '../types';
+import { EstimateStatus } from '../types.js';
 /**
  * The Estimate Object
  */

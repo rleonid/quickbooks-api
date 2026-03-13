@@ -1,4 +1,4 @@
-import { TaxLineDetail } from '../types';
+import { TaxLineDetail } from '../types.js';
 /**
  * TaxLine
  *

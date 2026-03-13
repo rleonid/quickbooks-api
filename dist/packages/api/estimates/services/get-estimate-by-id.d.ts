@@ -1,5 +1,5 @@
-import { Estimate, type EstimateOptions } from '../../../../types/types';
-import { EstimateAPI } from '../estimate-api';
+import { Estimate, type EstimateOptions } from '../../../../types/types.js';
+import { EstimateAPI } from '../estimate-api.js';
 /**
  * Get Estimate by ID
  * @param this - The Estimate API

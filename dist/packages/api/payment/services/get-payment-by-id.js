@@ -1,6 +1,6 @@
 // Import the Query Builder
 import { plainToClass } from 'class-transformer';
-import { Payment } from '../../../../types/types';
+import { Payment } from '../../../../types/types.js';
 /**
  * Get Payment by ID
  * @param this - The Payment API

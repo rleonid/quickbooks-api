@@ -1,4 +1,4 @@
-import { BaseLine, DiscountLineDetail } from '../types';
+import { BaseLine, DiscountLineDetail } from '../types.js';
 /**
  * Discount Line
  *

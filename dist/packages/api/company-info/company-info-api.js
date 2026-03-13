@@ -1,11 +1,11 @@
 // Imports
-import { ApiClient } from '../api-client';
-import { Environment, Query, QuickbooksError } from '../../../types/types';
-import { Endpoints } from '../../../types/enums/endpoints';
-import { CompanyInfoQueryBuilder } from './company-info-query-builder';
+import { ApiClient } from '../api-client.js';
+import { Environment, Query, QuickbooksError } from '../../../types/types.js';
+import { Endpoints } from '../../../types/enums/endpoints.js';
+import { CompanyInfoQueryBuilder } from './company-info-query-builder.js';
 // Import the Services
-import { getCompanyInfo } from './services/get-company-info';
-import { rawCompanyInfoQuery } from './services/raw-company-info-query';
+import { getCompanyInfo } from './services/get-company-info.js';
+import { rawCompanyInfoQuery } from './services/raw-company-info-query.js';
 /**
  * Company Info API
  */

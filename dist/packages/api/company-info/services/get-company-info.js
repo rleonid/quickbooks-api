@@ -1,6 +1,6 @@
 // Imports
 import { plainToClass } from 'class-transformer';
-import { CompanyInfo } from '../../../../types/types';
+import { CompanyInfo } from '../../../../types/types.js';
 /**
  * Get Company Info
  * @param this - The Company Info API

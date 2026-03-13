@@ -1,6 +1,6 @@
-import type { TokenType } from '../types';
-import type { IdToken } from './id-token';
-import type { UserProfile } from './user-profile';
+import type { TokenType } from '../types.js';
+import type { IdToken } from './id-token.js';
+import type { UserProfile } from './user-profile.js';
 /**
  * The Token Object
  */

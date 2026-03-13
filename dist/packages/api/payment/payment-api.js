@@ -1,16 +1,16 @@
 // Imports
-import { ApiClient } from '../api-client';
-import { Environment, Query, QuickbooksError } from '../../../types/types';
-import { Endpoints } from '../../../types/enums/endpoints';
-import { PaymentQueryBuilder } from './payment-query-builder';
+import { ApiClient } from '../api-client.js';
+import { Environment, Query, QuickbooksError } from '../../../types/types.js';
+import { Endpoints } from '../../../types/enums/endpoints.js';
+import { PaymentQueryBuilder } from './payment-query-builder.js';
 import path from 'path';
 // Import the Services
-import { getAllPayments } from './services/get-all-payments';
-import { getPaymentById } from './services/get-payment-by-id';
-import { getPaymentsForDateRange } from './services/get-payments-for-date-range';
-import { getUpdatedPayments } from './services/get-updated-payments';
-import { getPaymentsByDueDate } from './services/get-payment-by-due-date';
-import { rawPaymentQuery } from './services/raw-payment-query';
+import { getAllPayments } from './services/get-all-payments.js';
+import { getPaymentById } from './services/get-payment-by-id.js';
+import { getPaymentsForDateRange } from './services/get-payments-for-date-range.js';
+import { getUpdatedPayments } from './services/get-updated-payments.js';
+import { getPaymentsByDueDate } from './services/get-payment-by-due-date.js';
+import { rawPaymentQuery } from './services/raw-payment-query.js';
 /**
  * API Client
  */

@@ -1,4 +1,4 @@
-import { Account, Bill, CompanyInfo, CreditMemo, Customer, Estimate, Invoice, InvoiceStatus, Payment, Preferences, RecurringTransaction, SearchOptions } from '../types';
+import { Account, Bill, CompanyInfo, CreditMemo, Customer, Estimate, Invoice, InvoiceStatus, Payment, Preferences, RecurringTransaction, SearchOptions } from '../types.js';
 export interface InvoiceOptions extends Options<Invoice> {
     status?: InvoiceStatus;
 }

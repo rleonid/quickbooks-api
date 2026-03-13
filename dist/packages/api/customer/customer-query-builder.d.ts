@@ -1,5 +1,5 @@
-import { type Customer, type Query } from '../../../types/types';
-import { BaseQueryBuilder } from '../common/base-query-builder';
+import { type Customer, type Query } from '../../../types/types.js';
+import { BaseQueryBuilder } from '../common/base-query-builder.js';
 /**
  * The Invoice Query Builder
  */

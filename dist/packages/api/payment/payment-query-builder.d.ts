@@ -1,5 +1,5 @@
-import type { Payment, Query } from '../../../types/types';
-import { BaseQueryBuilder } from '../common/base-query-builder';
+import type { Payment, Query } from '../../../types/types.js';
+import { BaseQueryBuilder } from '../common/base-query-builder.js';
 /**
  * The Payment Query Builder
  */

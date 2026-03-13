@@ -1,13 +1,13 @@
-import { ApiClient } from '../api-client';
-import { type Preferences } from '../../../types/types';
-import { PreferenceQueryBuilder } from './preference-query-builder';
+import { ApiClient } from '../api-client.js';
+import { type Preferences } from '../../../types/types.js';
+import { PreferenceQueryBuilder } from './preference-query-builder.js';
 /**
  * API Client
  */
 export declare class PreferenceAPI {
     protected readonly apiClient: ApiClient;
-    readonly getPreferences: (options?: import("../../../app").PreferenceOptions | undefined) => Promise<import("../../../app").SearchResponse<Preferences>>;
-    readonly rawPreferenceQuery: (queryBuilder: PreferenceQueryBuilder) => Promise<import("../../../app").SearchResponse<Preferences>>;
+    readonly getPreferences: (options?: import("../../../app.js").PreferenceOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Preferences>>;
+    readonly rawPreferenceQuery: (queryBuilder: PreferenceQueryBuilder) => Promise<import("../../../app.js").SearchResponse<Preferences>>;
     /**
      * Constructor
 

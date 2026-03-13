@@ -1,5 +1,5 @@
-import { ApiClient } from '../../packages/api/api-client';
-import { ReferenceType, PhysicalAddress, EmailAddress, ModificationMetadata, CustomField, LinkedTxn, TxnTaxDetail, MemoRef, GlobalTaxCalculation, EstimateStatus, EmailStatus } from '../types';
+import { ApiClient } from '../../packages/api/api-client.js';
+import { ReferenceType, PhysicalAddress, EmailAddress, ModificationMetadata, CustomField, LinkedTxn, TxnTaxDetail, MemoRef, GlobalTaxCalculation, EstimateStatus, EmailStatus } from '../types.js';
 /**
  * Estimate Line
  */

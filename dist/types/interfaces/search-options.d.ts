@@ -1,4 +1,4 @@
-import { Range, type DeepKeys } from '../types';
+import { Range, type DeepKeys } from '../types.js';
 export interface SearchOptions<T> {
     /** The page number to fetch */
     page?: number;

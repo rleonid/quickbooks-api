@@ -1,4 +1,4 @@
-import { BaseQueryBuilder } from '../common/base-query-builder';
+import { BaseQueryBuilder } from '../common/base-query-builder.js';
 /**
  * The CreditMemo Query Builder
  */

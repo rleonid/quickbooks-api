@@ -1,19 +1,19 @@
-import { ApiClient } from '../api-client';
-import { type Customer } from '../../../types/types';
-import { CustomerQueryBuilder } from './customer-query-builder';
+import { ApiClient } from '../api-client.js';
+import { type Customer } from '../../../types/types.js';
+import { CustomerQueryBuilder } from './customer-query-builder.js';
 /**
  * API Client
  */
 export declare class CustomerAPI {
     protected readonly apiClient: ApiClient;
-    readonly getAllCustomers: (options?: import("../../../app").CustomerOptions | undefined) => Promise<import("../../../app").SearchResponse<Customer>>;
-    readonly getCustomerById: (id: string, options?: import("../../../app").CustomerOptions | undefined) => Promise<{
+    readonly getAllCustomers: (options?: import("../../../app.js").CustomerOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Customer>>;
+    readonly getCustomerById: (id: string, options?: import("../../../app.js").CustomerOptions | undefined) => Promise<{
         customer: Customer | null;
         intuitTID: string;
     }>;
-    readonly getCustomersForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app").CustomerOptions | undefined) => Promise<import("../../../app").SearchResponse<Customer>>;
-    readonly getUpdatedCustomers: (lastUpdatedDate: Date, options?: import("../../../app").CustomerOptions | undefined) => Promise<import("../../../app").SearchResponse<Customer>>;
-    readonly rawCustomerQuery: (queryBuilder: CustomerQueryBuilder) => Promise<import("../../../app").SearchResponse<Customer>>;
+    readonly getCustomersForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app.js").CustomerOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Customer>>;
+    readonly getUpdatedCustomers: (lastUpdatedDate: Date, options?: import("../../../app.js").CustomerOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Customer>>;
+    readonly rawCustomerQuery: (queryBuilder: CustomerQueryBuilder) => Promise<import("../../../app.js").SearchResponse<Customer>>;
     /**
      * Constructor
 

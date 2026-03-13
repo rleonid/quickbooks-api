@@ -1,16 +1,16 @@
 // Imports
-import { ApiClient } from '../api-client';
-import { Environment, Query, QuickbooksError } from '../../../types/types';
-import { Endpoints } from '../../../types/enums/endpoints';
-import { AccountQueryBuilder } from './account-query-builder';
+import { ApiClient } from '../api-client.js';
+import { Environment, Query, QuickbooksError } from '../../../types/types.js';
+import { Endpoints } from '../../../types/enums/endpoints.js';
+import { AccountQueryBuilder } from './account-query-builder.js';
 import path from 'path';
 // Import the Services
-import { getAllAccounts } from './services/get-all-accounts';
-import { getAccountById } from './services/get-account-by-id';
-import { getAccountsForDateRange } from './services/get-accounts-for-date-range';
-import { getAccountsCreatedForDateRange } from './services/get-accounts-created-for-date-range';
-import { getUpdatedAccounts } from './services/get-updated-accounts';
-import { rawAccountQuery } from './services/raw-account-query';
+import { getAllAccounts } from './services/get-all-accounts.js';
+import { getAccountById } from './services/get-account-by-id.js';
+import { getAccountsForDateRange } from './services/get-accounts-for-date-range.js';
+import { getAccountsCreatedForDateRange } from './services/get-accounts-created-for-date-range.js';
+import { getUpdatedAccounts } from './services/get-updated-accounts.js';
+import { rawAccountQuery } from './services/raw-account-query.js';
 /**
  * API Client
  */

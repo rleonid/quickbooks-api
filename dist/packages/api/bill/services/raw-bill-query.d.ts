@@ -1,6 +1,6 @@
-import { BillAPI } from '../bill-api';
-import type { BillQueryBuilder } from '../bill-query-builder';
-import type { Bill, SearchResponse } from '../../../../types/types';
+import { BillAPI } from '../bill-api.js';
+import type { BillQueryBuilder } from '../bill-query-builder.js';
+import type { Bill, SearchResponse } from '../../../../types/types.js';
 /**
  * Raw Bill Query
  * @param this - The Bill API

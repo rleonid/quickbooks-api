@@ -1,4 +1,4 @@
-import { ReferenceType, TaxLine } from '../types';
+import { ReferenceType, TaxLine } from '../types.js';
 /**
  * TxnTaxDetail
  *

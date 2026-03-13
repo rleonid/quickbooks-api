@@ -1,5 +1,5 @@
-import type { Query, Estimate } from '../../../types/types';
-import { BaseQueryBuilder } from '../common/base-query-builder';
+import type { Query, Estimate } from '../../../types/types.js';
+import { BaseQueryBuilder } from '../common/base-query-builder.js';
 /**
  * The Estimate Query Builder
  */

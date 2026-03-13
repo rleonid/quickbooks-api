@@ -1,7 +1,7 @@
 // Import the Query Builder
 import { plainToClass } from 'class-transformer';
-import { Customer, QuickbooksError } from '../../../../types/types';
-import { ApiClient } from '../../api-client';
+import { Customer, QuickbooksError } from '../../../../types/types.js';
+import { ApiClient } from '../../api-client.js';
 /**
  * Retrieves customers updated within a specified date range.
  *

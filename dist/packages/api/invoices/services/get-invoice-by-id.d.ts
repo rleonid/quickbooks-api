@@ -1,5 +1,5 @@
-import { Invoice, InvoiceOptions } from '../../../../types/types';
-import { InvoiceAPI } from '../invoice-api';
+import { Invoice, InvoiceOptions } from '../../../../types/types.js';
+import { InvoiceAPI } from '../invoice-api.js';
 /**
  * Get Invoice by ID
  * @param this - The Invoice API

@@ -1,4 +1,4 @@
-import { AuthScopes, type Token, type IdToken, type UserProfile, Environment } from '../../types/types';
+import { AuthScopes, type Token, type IdToken, type UserProfile, Environment } from '../../types/types.js';
 /**
  * The Auth Provider is responsible for handling the OAuth2 flow for the application.
  * It is responsible for generating the OAuth2 URL and handling the callback.

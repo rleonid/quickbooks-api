@@ -1,5 +1,5 @@
-import { ApiClient } from '../../packages/api/api-client';
-import { PhysicalAddress, EmailAddress, ModificationMetadata } from '../types';
+import { ApiClient } from '../../packages/api/api-client.js';
+import { PhysicalAddress, EmailAddress, ModificationMetadata } from '../types.js';
 /**
  * Name Value Pair
  */

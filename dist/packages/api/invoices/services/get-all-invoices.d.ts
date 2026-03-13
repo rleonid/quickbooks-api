@@ -1,5 +1,5 @@
-import { Invoice, type SearchResponse, type InvoiceOptions } from '../../../../types/types';
-import { InvoiceAPI } from '../invoice-api';
+import { Invoice, type SearchResponse, type InvoiceOptions } from '../../../../types/types.js';
+import { InvoiceAPI } from '../invoice-api.js';
 /**
  * Get All Invoices
  * @param this - The Invoice API

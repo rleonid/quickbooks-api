@@ -1,5 +1,5 @@
-import type { Account, Query } from '../../../types/types';
-import { BaseQueryBuilder } from '../common/base-query-builder';
+import type { Account, Query } from '../../../types/types.js';
+import { BaseQueryBuilder } from '../common/base-query-builder.js';
 /**
  * The Account Query Builder
  */

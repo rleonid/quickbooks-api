@@ -1,4 +1,4 @@
-import { DeepKeys, Query, SearchOptions } from '../../../types/types';
+import { DeepKeys, Query, SearchOptions } from '../../../types/types.js';
 export declare abstract class BaseQueryBuilder<T> {
     protected readonly endpoint: string;
     protected readonly baseQuery: Query;

@@ -1,14 +1,14 @@
-import { IntuitFaultCodes, IntuitFaultType, QuickbooksError, } from '../../types/types';
-import { InvoiceAPI } from './invoices/invoice-api';
-import { EstimateAPI } from './estimates/estimate-api';
-import { CustomerAPI } from './customer/customer-api';
-import { PaymentAPI } from './payment/payment-api';
-import { AccountAPI } from './account/account-api';
-import { PreferenceAPI } from './preferences/preference-api';
-import { CreditMemoAPI } from './credit-memo/credit-memo-api';
-import { CompanyInfoAPI } from './company-info/company-info-api';
-import { BillAPI } from './bill/bill-api';
-import { RecurringTransactionAPI } from './recurring-transaction/recurring-transaction-api';
+import { IntuitFaultCodes, IntuitFaultType, QuickbooksError, } from '../../types/types.js';
+import { InvoiceAPI } from './invoices/invoice-api.js';
+import { EstimateAPI } from './estimates/estimate-api.js';
+import { CustomerAPI } from './customer/customer-api.js';
+import { PaymentAPI } from './payment/payment-api.js';
+import { AccountAPI } from './account/account-api.js';
+import { PreferenceAPI } from './preferences/preference-api.js';
+import { CreditMemoAPI } from './credit-memo/credit-memo-api.js';
+import { CompanyInfoAPI } from './company-info/company-info-api.js';
+import { BillAPI } from './bill/bill-api.js';
+import { RecurringTransactionAPI } from './recurring-transaction/recurring-transaction-api.js';
 /**
  * API Client
  */

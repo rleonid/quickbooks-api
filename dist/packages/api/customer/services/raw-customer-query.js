@@ -1,4 +1,4 @@
-import { Customer } from '../../../../types/types';
+import { Customer } from '../../../../types/types.js';
 import { plainToClass } from 'class-transformer';
 /**
  * Executes a custom customer query using the specified query builder.

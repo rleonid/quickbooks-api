@@ -1,4 +1,4 @@
-import { DeliveryType, DateTime } from '../types';
+import { DeliveryType, DateTime } from '../types.js';
 /**
  * Delivery Info
  *

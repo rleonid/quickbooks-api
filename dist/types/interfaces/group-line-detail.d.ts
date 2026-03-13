@@ -1,4 +1,4 @@
-import { ReferenceType, SalesItemLine } from '../types';
+import { ReferenceType, SalesItemLine } from '../types.js';
 /**
  * Group Line Detail
  *

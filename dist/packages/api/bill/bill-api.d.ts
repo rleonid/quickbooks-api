@@ -1,19 +1,19 @@
-import { ApiClient } from '../api-client';
-import { type Bill } from '../../../types/types';
-import { BillQueryBuilder } from './bill-query-builder';
+import { ApiClient } from '../api-client.js';
+import { type Bill } from '../../../types/types.js';
+import { BillQueryBuilder } from './bill-query-builder.js';
 /**
  * Bill API Client
  */
 export declare class BillAPI {
     protected readonly apiClient: ApiClient;
-    readonly getAllBills: (options?: import("../../../app").BillOptions | undefined) => Promise<import("../../../app").SearchResponse<Bill>>;
+    readonly getAllBills: (options?: import("../../../app.js").BillOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Bill>>;
     readonly getBillById: (id: string) => Promise<{
         bill: Bill | null;
         intuitTID: string;
     }>;
-    readonly getBillsForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app").BillOptions | undefined) => Promise<import("../../../app").SearchResponse<Bill>>;
-    readonly getUpdatedBills: (lastUpdatedDate: Date, options?: import("../../../app").BillOptions | undefined) => Promise<import("../../../app").SearchResponse<Bill>>;
-    readonly rawBillQuery: (queryBuilder: BillQueryBuilder) => Promise<import("../../../app").SearchResponse<Bill>>;
+    readonly getBillsForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app.js").BillOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Bill>>;
+    readonly getUpdatedBills: (lastUpdatedDate: Date, options?: import("../../../app.js").BillOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Bill>>;
+    readonly rawBillQuery: (queryBuilder: BillQueryBuilder) => Promise<import("../../../app.js").SearchResponse<Bill>>;
     /**
      * Constructor
      * @param apiClient - The API Client

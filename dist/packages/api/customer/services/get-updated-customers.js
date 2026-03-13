@@ -1,6 +1,6 @@
 // Import the Query Builder
 import { plainToClass } from 'class-transformer';
-import { Customer } from '../../../../types/types';
+import { Customer } from '../../../../types/types.js';
 /**
  * Retrieves updated customer records modified after the specified cutoff date.
  *

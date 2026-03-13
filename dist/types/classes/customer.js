@@ -1,6 +1,6 @@
 // Import the Types
-import { ApiClient } from '../../packages/api/api-client';
-import { QuickbooksError, } from '../types';
+import { ApiClient } from '../../packages/api/api-client.js';
+import { QuickbooksError, } from '../types.js';
 /**
  * Customer
  *

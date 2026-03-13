@@ -1,12 +1,12 @@
-import { ApiClient } from '../api-client';
-import { type CompanyInfo } from '../../../types/types';
-import { CompanyInfoQueryBuilder } from './company-info-query-builder';
+import { ApiClient } from '../api-client.js';
+import { type CompanyInfo } from '../../../types/types.js';
+import { CompanyInfoQueryBuilder } from './company-info-query-builder.js';
 /**
  * Company Info API
  */
 export declare class CompanyInfoAPI {
     protected readonly apiClient: ApiClient;
-    readonly getCompanyInfo: (options?: import("../../../types/interfaces/options").CompanyInfoOptions | undefined) => Promise<{
+    readonly getCompanyInfo: (options?: import("../../../types/interfaces/options.js").CompanyInfoOptions | undefined) => Promise<{
         companyInfo: CompanyInfo | undefined;
         intuitTID: string;
     }>;

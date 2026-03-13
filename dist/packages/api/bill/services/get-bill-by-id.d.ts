@@ -1,5 +1,5 @@
-import { Bill } from '../../../../types/types';
-import { BillAPI } from '../bill-api';
+import { Bill } from '../../../../types/types.js';
+import { BillAPI } from '../bill-api.js';
 /**
  * Get Bill by ID
  * @param this - The Bill API

@@ -1,5 +1,5 @@
-import { Preferences, type PreferenceOptions, type SearchResponse } from '../../../../types/types';
-import { PreferenceAPI } from '../preference-api';
+import { Preferences, type PreferenceOptions, type SearchResponse } from '../../../../types/types.js';
+import { PreferenceAPI } from '../preference-api.js';
 /**
  * Get All Preferences
  * @param this - The Preference API

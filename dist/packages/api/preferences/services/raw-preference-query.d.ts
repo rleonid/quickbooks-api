@@ -1,6 +1,6 @@
-import { PreferenceAPI } from '../preference-api';
-import type { PreferenceQueryBuilder } from '../preference-query-builder';
-import type { Preferences, SearchResponse } from '../../../../types/types';
+import { PreferenceAPI } from '../preference-api.js';
+import type { PreferenceQueryBuilder } from '../preference-query-builder.js';
+import type { Preferences, SearchResponse } from '../../../../types/types.js';
 /**
  * Raw Preference Query
  * @param this - The Preference API

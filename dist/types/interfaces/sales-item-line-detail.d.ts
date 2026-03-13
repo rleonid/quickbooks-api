@@ -1,4 +1,4 @@
-import { MarkupInfo, ReferenceType } from '../types';
+import { MarkupInfo, ReferenceType } from '../types.js';
 /**
  * Sales Item Line Detail
  *

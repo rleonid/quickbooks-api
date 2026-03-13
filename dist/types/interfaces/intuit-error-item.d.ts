@@ -1,4 +1,4 @@
-import { IntuitFaultCodes } from '../types';
+import { IntuitFaultCodes } from '../types.js';
 /**
  * The Array of Error Objects returned from the Intuit API
  * this version is the new version, utilizing lowercase for properties instead of uppercase

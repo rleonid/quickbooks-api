@@ -1,13 +1,13 @@
-import { ApiClient } from '../api-client';
-import { Environment, Query, QuickbooksError } from '../../../types/types';
-import { BillQueryBuilder } from './bill-query-builder';
+import { ApiClient } from '../api-client.js';
+import { Environment, Query, QuickbooksError } from '../../../types/types.js';
+import { BillQueryBuilder } from './bill-query-builder.js';
 import path from 'path';
 // Import the Services
-import { getAllBills } from './services/get-all-bills';
-import { getBillById } from './services/get-bill-by-id';
-import { getBillsForDateRange } from './services/get-bills-for-date-range';
-import { getUpdatedBills } from './services/get-updated-bills';
-import { rawBillQuery } from './services/raw-bill-query';
+import { getAllBills } from './services/get-all-bills.js';
+import { getBillById } from './services/get-bill-by-id.js';
+import { getBillsForDateRange } from './services/get-bills-for-date-range.js';
+import { getUpdatedBills } from './services/get-updated-bills.js';
+import { rawBillQuery } from './services/raw-bill-query.js';
 /**
  * Bill API Client
  */

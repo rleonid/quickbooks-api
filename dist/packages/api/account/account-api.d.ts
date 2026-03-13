@@ -1,20 +1,20 @@
-import { ApiClient } from '../api-client';
-import { type Account } from '../../../types/types';
-import { AccountQueryBuilder } from './account-query-builder';
+import { ApiClient } from '../api-client.js';
+import { type Account } from '../../../types/types.js';
+import { AccountQueryBuilder } from './account-query-builder.js';
 /**
  * API Client
  */
 export declare class AccountAPI {
     protected readonly apiClient: ApiClient;
-    readonly getAllAccounts: (options?: import("../../../app").AccountOptions | undefined) => Promise<import("../../../app").SearchResponse<Account>>;
-    readonly getAccountById: (id: string, options?: import("../../../app").AccountOptions | undefined) => Promise<{
+    readonly getAllAccounts: (options?: import("../../../app.js").AccountOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Account>>;
+    readonly getAccountById: (id: string, options?: import("../../../app.js").AccountOptions | undefined) => Promise<{
         account: Account | null;
         intuitTID: string;
     }>;
-    readonly getAccountsCreatedForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app").AccountOptions | undefined) => Promise<import("../../../app").SearchResponse<Account>>;
-    readonly getAccountsForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app").AccountOptions | undefined) => Promise<import("../../../app").SearchResponse<Account>>;
-    readonly getUpdatedAccounts: (lastUpdatedDate: Date, options?: import("../../../app").AccountOptions | undefined) => Promise<import("../../../app").SearchResponse<Account>>;
-    readonly rawAccountQuery: (queryBuilder: AccountQueryBuilder) => Promise<import("../../../app").SearchResponse<Account>>;
+    readonly getAccountsCreatedForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app.js").AccountOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Account>>;
+    readonly getAccountsForDateRange: (startDate: Date, endDate: Date, options?: import("../../../app.js").AccountOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Account>>;
+    readonly getUpdatedAccounts: (lastUpdatedDate: Date, options?: import("../../../app.js").AccountOptions | undefined) => Promise<import("../../../app.js").SearchResponse<Account>>;
+    readonly rawAccountQuery: (queryBuilder: AccountQueryBuilder) => Promise<import("../../../app.js").SearchResponse<Account>>;
     /**
      * Constructor
 

@@ -1,15 +1,15 @@
 // Imports
-import { ApiClient } from '../api-client';
-import { Environment, Query, QuickbooksError } from '../../../types/types';
-import { Endpoints } from '../../../types/enums/endpoints';
-import { CreditMemoQueryBuilder } from './credit-memo-query-builder';
+import { ApiClient } from '../api-client.js';
+import { Environment, Query, QuickbooksError } from '../../../types/types.js';
+import { Endpoints } from '../../../types/enums/endpoints.js';
+import { CreditMemoQueryBuilder } from './credit-memo-query-builder.js';
 import path from 'path';
 // Import the Services
-import { getAllCreditMemos } from './services/get-all-credit-memos';
-import { getCreditMemoById } from './services/get-credit-memo-by-id';
-import { getCreditMemosForDateRange } from './services/get-credit-memos-for-date-range';
-import { getUpdatedCreditMemos } from './services/get-updated-credit-memos';
-import { rawCreditMemoQuery } from './services/raw-credit-memo-query';
+import { getAllCreditMemos } from './services/get-all-credit-memos.js';
+import { getCreditMemoById } from './services/get-credit-memo-by-id.js';
+import { getCreditMemosForDateRange } from './services/get-credit-memos-for-date-range.js';
+import { getUpdatedCreditMemos } from './services/get-updated-credit-memos.js';
+import { rawCreditMemoQuery } from './services/raw-credit-memo-query.js';
 /**
  * API Client
  */

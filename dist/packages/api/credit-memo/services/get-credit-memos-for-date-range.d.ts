@@ -1,5 +1,5 @@
-import { type CreditMemo, type CreditMemoOptions, type SearchResponse } from '../../../../types/types';
-import { CreditMemoAPI } from '../credit-memo-api';
+import { type CreditMemo, type CreditMemoOptions, type SearchResponse } from '../../../../types/types.js';
+import { CreditMemoAPI } from '../credit-memo-api.js';
 /**
  * Get CreditMemos for a Date Range
  * @param this - The CreditMemo API

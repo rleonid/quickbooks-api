@@ -1,5 +1,5 @@
 // Import the Query Builder
-import { Customer } from '../../../../types/types';
+import { Customer } from '../../../../types/types.js';
 import { plainToClass } from 'class-transformer';
 /**
  * Retrieves a customer by their ID from the Customer API.
