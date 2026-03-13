@@ -118,7 +118,7 @@ out
 # Nuxt.js build / generate output
 
 .nuxt
-dist
+# dist — checked in so git-based consumers get pre-built output
 
 # Gatsby files
 

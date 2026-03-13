@@ -1,0 +1,29 @@
+/**
+ * Get Updated Payments
+ * @param this - The Payment API
+ * @param lastUpdatedDate - The last updated date
+ * @returns The Payments
+ */
+export async function getUpdatedPayments(lastUpdatedDate, options = {}) {
+    // Get the Query Builder
+    const queryBuilder = await this.getQueryBuilder();
+    // Setup the Last Updated Date Filter
+    queryBuilder.whereLastUpdatedAfter(lastUpdatedDate);
+    // Setup the Search Options (if provided)
+    if (options.searchOptions)
+        queryBuilder.setSearchOptions(options.searchOptions);
+    // Setup the URL
+    const url = queryBuilder.build();
+    // Get the Payments
+    const { responseData, intuitTID } = await this.apiClient.runRequest(url, { method: 'GET' });
+    // Format the Response
+    const payments = await this.formatResponse(responseData);
+    // Setup the Search Response
+    const searchResponse = {
+        results: payments,
+        hasNextPage: await this.hasNextPage(queryBuilder),
+        intuitTID,
+    };
+    // Return the Payments
+    return searchResponse;
+}
